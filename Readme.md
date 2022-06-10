@@ -73,7 +73,7 @@ O diagrama abaixo apresenta o usuário do sistema (também conhecidos como ator)
 ### Class Diagram
 O diagrama abaixo ilustra os modelos de dados para o sistema a ser desenvolvido, apresentando uma visão geral dos esquemas e necessidades da aplicação.
 
-![image](https://user-images.githubusercontent.com/34774584/143627093-eef14618-4a28-4278-ac60-55fd07f299ce.png)
+![image](https://github.com/MatheusCostacurta/Projeto-Grails-Start/blob/main/Diagrama-Classes.png)
 
 ### Regras para os Modelos
 	Usuário
