@@ -63,7 +63,7 @@ Para mais informações acesse a documentação oficial <a href="http://docs.gra
 # Definições do projeto
 Criar um sistema WEB para gestão de Vendas, utilizando o framework Grails e salvando os registros em um banco de dados Postgres. 
 
-Nos próximos itens serão apresentados alguns diagramas para ajudar no entendimento do projeto. Os diagramas foram desenvolvidos utilizando a ferraments <a herf="https://staruml.io/">StartUML</a>. Uma <a href="https://github.com/alisonweber/grails_start/blob/01959c20fd48eb34e522ff3eab7e3b9c5b477a0f/ModeloStarUML.mdj">cópia do modelo</a> esta presente neste projeto.
+Nos próximos itens serão apresentados alguns diagramas para ajudar no entendimento do projeto. Os diagramas foram desenvolvidos utilizando a ferraments <a herf="https://staruml.io/">StartUML</a>. Uma <a href="https://github.com/MatheusCostacurta/Projeto-Grails-Start/blob/main/ModeloStarUML.mdj">cópia do modelo</a> esta presente neste projeto.
 
 ### Use Case Diagram
 O diagrama abaixo apresenta o usuário do sistema (também conhecidos como ator) e as interações dele com o sistema. Nele poderá ver os cenários que devem ser desenvolvidos e o escopo geral do sistema.
