@@ -87,17 +87,19 @@ O diagrama abaixo ilustra os modelos de dados para o sistema a ser desenvolvido,
 	
 	Cliente
 	- nome: obrigatório, tamanho máximo de 255
-	- cpfCnpj: obrigatório, validar se preenchimento é de tamanho 11 ou 14 digitos compostos apenas de números;
-	- email: facultativo, validar se é e-mail valido;
+	- cpfCnpj: obrigatório, validar se preenchimento é de tamanho 11 ou 14 digitos(apenas números) dependendo do tipo de pessoa
+	- email: facultativo, validar se é e-mail valido
+	- tipoPessoa: obrigatório, (0 -> Pessoa Física; 1 -> Pessoa Jurídica)
+	- nomeFantasia: facultativo, preenchimento apenas quando tipoPessoa for igual a 1.
 	
 	Venda
 	- cliente: obrigatório
-	- valorTotal: obrigatório, maior que 0.00 //somatório de todos os itens da venda
+	- valorTotal: obrigatório, maior que 0.00 // somatório de todos os itens da venda
 	- itensVenda: obrigatóroo, deve possuir ao menos 1 item
 	
 	VendaItem
 	- produto: obrigatório
-	- valorUnitario: obrigatório //carregar automaticamente ao selecionar um produto cadastrado do atributo valorPadrao
+	- valorUnitario: obrigatório // carregar automaticamente ao selecionar um produto cadastrado do atributo valorPadrao
 	- quantidade: obrigatório, maior que 0.00
 	- desconto: facultativo
 	- valorTotalItem: obrigatóroo, maior que 0.00 // valorTotalItem = (valorUnitario * quantidade) - desconto
@@ -191,6 +193,7 @@ Procure entender como foi realizado esta configuração, pois ela será muito ut
 
 Realize um fork do projeto. A gestão de Produtos já esta pronta, tome como base para desenvolver o restante.
 
+<!--
 Objetivo é finalizar este projeto com a sua cara, contendo as mesmas funcionalidades deste finalizado:
 
 [** EM PROCESSO DE CONSTRUÇÃO **]
@@ -198,11 +201,12 @@ Objetivo é finalizar este projeto com a sua cara, contendo as mesmas funcionali
 - <a href="http://gvexemplo.crawsistemas.com">http://gvexemplo.crawsistemas.com</a> 
 - Usuário: vendedor
 - Senha: bonsEstudos123
+-->
 
 Se precisar de ajuda, pode entrar em contato conosco utilizando as seguintes opções:
 
 - Utilize o Wiki
-- E-mail: desenvolvimento@crawsistemas.com
+- E-mail: contato@agriwin.com.br
 
 ## Para nos enviar seu código, você pode:
 
