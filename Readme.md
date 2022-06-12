@@ -92,12 +92,15 @@ O diagrama abaixo ilustra os modelos de dados para o sistema a ser desenvolvido,
 	- tipoPessoa: obrigatório, (0 -> Pessoa Física; 1 -> Pessoa Jurídica)
 	- nomeFantasia: facultativo, preenchimento apenas quando tipoPessoa for igual a 1.
 	
-	Venda
+	Conta
 	- cliente: obrigatório
+	- observacao: facultativo, deve ser do tipo Text
+
+	Venda (extends Conta)
 	- valorTotal: obrigatório, maior que 0.00 // somatório de todos os itens da venda
 	- itensVenda: obrigatóroo, deve possuir ao menos 1 item
 	
-	VendaItem
+	ItemVenda
 	- produto: obrigatório
 	- valorUnitario: obrigatório // carregar automaticamente ao selecionar um produto cadastrado do atributo valorPadrao
 	- quantidade: obrigatório, maior que 0.00
